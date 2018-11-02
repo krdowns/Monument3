@@ -2,6 +2,7 @@
     font-family: 'Open+Sans', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
+    color: #44545E;
 
 }
 
@@ -9,9 +10,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: solid 2px purple;
-
+    /* border: solid 2px purple; */
     text-align: center;
+    margin: 0 5vw;
     
 }
 
@@ -19,48 +20,66 @@ nav {
     font-size: 12px;
     color: #7B98AA;
     font-weight: 700;
-    
-    width: 100%;
-    
-    border: 2px solid red;
+    width: 20%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+    /* border: 2px solid red; */
+}
+
+.top-nav {
+    justify-content: space-between;
 }
 
 a {
     justify-content: space-between;
+    color: #7B98AA;
 }
 
 header {
     padding-top:4vh;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
+    letter-spacing: 6px;
+    font-weight: 800;
+    
 }
 h3 {
-    border: red 2px solid;
+    /* border: red 2px solid; */
     margin-top: 10vh;
     margin-bottom: -1vh;
     text-align: left;
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #44545E;
 }
 h2 {
     text-align: left;
     width: 50vw;
-    font-size: 14px;
-    font-weight: 700;
-    border: orange 2px solid;
+    font-size: 16px;
+    font-weight: 900;
+    /* border: orange 2px solid; */
+    letter-spacing: 2px;
+
 }
 
 img {
     width: 100%;
-    border: orange 2px solid;
+    /* border: orange 2px solid; */
 }
 article {
-    text-align: justify;
-    border: blue 2px solid;
+    text-align: left;
+    /* border: blue 2px solid; */
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size:14px;
 }
 
 p {
-    text-align: justify;
-    border: 2px yellow solid;
+    text-align: left;
+    /* border: 2px yellow solid; */
+    font-size: 14px;
 }
 
 
@@ -68,10 +87,28 @@ p {
 .about-us {
     align-content: left;
     width: 25vw;
+    padding-bottom: -2%;
 }
+
+.recent {
+    margin-top: 0vh;
+}
+ul {
+    color:#7B98AA;
+    text-align: left;
+    text-decoration: none;
+    margin-top: 2vh;
+}
+
 footer {
     height: 10vh;
     background-color:#CDF3F6;
     text-align: center;
+    margin-left: -3vw;
+    margin-right: -3vw;
+}
 
+footer>nav {
+    text-decoration: none;
+    color: black;
 }
